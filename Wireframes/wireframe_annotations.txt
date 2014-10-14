@@ -1,0 +1,13 @@
+Wireframe Link:
+
+https://wireframe.cc/kyIQy7
+
+Annotations:
+
+1. Header. This is the display image and title for the webpage. It is aligned with the center of the page.
+
+2. Navigation Bar. This will contain links to other pages within the site, such as schedules, rosters, and stats.
+
+3. Primary calls to action. The primary calls to action are "Donate" and "Join Now". Each one is pretty self explanatory. "Donate" allows fans, alumni, and others to donate money to help the team. "Join Now" is for future players to use. They can fill out information about themselves which is sent to the team president. They will also receive information about tryouts.
+
+4. Main Content. This is the area that will display recent team news and highlight videos from previous games. 
