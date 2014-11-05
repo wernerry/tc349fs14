@@ -1,0 +1,30 @@
+@import '_colors.scss';
+.media-grid {
+list-style-type: none;
+background: $media-grid-light;
+margin: 0;
+padding: 0;
+li {
+background: $media-grid-dark;
+float: left;
+height: 200px;
+width: 20%;
+&:nth-child(even) {
+background: $media-grid-light;
+}
+}
+img {
+height: 100%;
+margin: 0 auto;
+display: block;
+}
+iframe {
+margin: 0 auto;
+display: block;
+}
+&.media-grid-sm li {
+width: 33.33%;
+height: 237px;
+overflow: hidden;
+}
+}

@@ -1,0 +1,39 @@
+@import '_colors.scss';
+@import 'compass/utilities/general/clearfix';
+@import 'compass/css3/box-shadow';
+@import 'compass/css3/border-radius';
+.general-info {
+/* Compass mixin to fix container not wrapping floated elements if there aren't any non-floated elements */
+@include clearfix;
+clear: both;
+padding: 35px;
+font-family: tahoma;
+p {
+margin: 0 auto;
+width: 90%;
+}
+.contact {
+margin-top: 50px;
+}
+img {
+/* Compass mixin to ensure box-shadows are consistent between vendors */
+@include box-shadow(0 0px null 25px black);
+/* Compass mixin to ensure border-radius is consistent between vendors, including horizontal/vertical radii */
+@include border-radius(5px);
+width: 90%;
+margin: 0 auto;
+display: block;
+}
+.left-col {
+float: left;
+width: 50%;
+p {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+}
+.right-col {
+float: left;
+width: 50%;
+}
+}

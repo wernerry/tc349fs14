@@ -1,0 +1,25 @@
+
+@import '_colors.scss';
+.header {
+background-color: $nav-back;
+clear: both;
+font-family: tahoma;
+p {
+text-align: center;
+font-size: 20px;
+margin: 10px 0 10px 0;
+}
+img {
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+width: 200px;
+border-radius: 5px;
+box-shadow: 0px 0px 25px black;
+}
+h1{
+text-align: center;
+margin: 10px 0 10px 0;
+}
+}
