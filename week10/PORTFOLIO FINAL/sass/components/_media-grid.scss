@@ -1,0 +1,67 @@
+@import '_colors.scss';
+.media-grid {
+list-style-type: none;
+background: $media-grid-light;
+margin: 0;
+padding: 0;
+li {
+background: $media-grid-dark;
+float: left;
+height: 200px;
+width: 20%;
+&:nth-child(even) {
+background: $media-grid-light;
+}
+.comment {
+left: -100%;
+width: 200%;
+height: 70%;
+display: inline-block;
+position: absolute;
+&:hover {
+left: 0%;
+}
+p {
+color: white;
+position: relative;
+left: 0;
+right: 100%;
+padding: 20px;
+}
+.back {
+background-color: black;
+opacity: 0.85;
+left: 0%;
+width: 50%;
+height: 150%;
+display: inline-block;
+position: relative;
+}
+.shade {
+background-color: black;
+opacity: 0.85;
+left: 0%;
+width: 50%;
+height: 50%;
+display: inline-block;
+position: relative;
+}
+}
+}
+img {
+height: 100%;
+margin: 0 auto;
+display: block;
+position: absolute;
+}
+iframe {
+display: block;
+position: absolute;
+}
+&.media-grid-sm li {
+height: 237px;
+position: relative;
+width: 33.33%;
+overflow: hidden;
+}
+}

@@ -1,0 +1,123 @@
+3.2.1 (Media Mark)
+ac7f9f57e9b53f27282857e53ee6cae03c2650b8
+o:Sass::Tree::RootNode
+:
+@linei:
+@options{ :@template"g@import '_colors.scss';
+@import 'compass/utilities/general/clearfix';
+@import 'compass/css3/box-shadow';
+@import 'compass/css3/border-radius';
+
+.general-info {
+	/* Compass mixin to fix container not wrapping floated elements if there aren't any non-floated elements */
+	@include clearfix;
+	clear: both;
+	padding: 25px;
+	
+	p {
+		margin: 0 auto;
+		width: 80%;
+	}
+	
+	.contact {
+		margin-top: 50px;
+	}
+	
+	img {
+		/* Compass mixin to ensure box-shadows are consistent between vendors */
+		@include box-shadow(0 0px null 25px rgba(0,0,0,.5));
+		/* Compass mixin to ensure border-radius is consistent between vendors, including horizontal/vertical radii */
+		@include border-radius(15px, 25px);
+		width: 80%;
+		margin: 0 auto;
+		display: block;
+	}
+	
+	.left-col {
+		float: left;
+		width: 50%;
+		
+		p {
+			margin-top: 10px;
+		}
+	}
+	
+	.right-col {
+		float: left;
+		width: 50%;
+	}
+}:@has_childrenT:@children[
+o:Sass::Tree::ImportNode
+;@;0;i:@imported_filename"_colors.scss;
+[ o;
+;@;0;i;"'compass/utilities/general/clearfix;
+[ o;
+;@;0;i;"compass/css3/box-shadow;
+[ o;
+;@;0;i	;"compass/css3/border-radius;
+[ o:Sass::Tree::RuleNode:
+@tabsi ;@:
+@rule[".general-info:@parsed_ruleso:"Sass::Selector::CommaSequence:@filename" ;i:
+@members[o:Sass::Selector::Sequence;[o:#Sass::Selector::SimpleSequence
+;@;i:
+@subject0;[o:Sass::Selector::Class;@:
+@name["general-info;i:
+@sourceso:Set:
+@hash{ ;	T;i;
+[o:Sass::Tree::CommentNode
+;i;@;
+[ :
+@type:normal:@value["p/* Compass mixin to fix container not wrapping floated elements if there aren't any non-floated elements */o:Sass::Tree::MixinNode;"
+clearfix;@:@splat0:
+@args[ ;i
+;
+[ :@keywords{ o:Sass::Tree::PropNode;i ;["
+clear;@:@prop_syntax:new;o:Sass::Script::String;@;"	both;:identifier;i;
+[ o;$;i ;["padding;@;%;&;o;';@;"	25px;;(;i;
+[ o;
+;i ;@;["p;o;;" ;i;[o;;[o;
+;@>;i;0;[o:Sass::Selector::Element	;@>:@namespace0;["p;i;o;;{ ;	T;i;
+[o;$;i ;["margin;@;%;&;o;';@;"0 auto;;(;i;
+[ o;$;i ;["
+width;@;%;&;o;';@;"80%;;(;i;
+[ o;
+;i ;@;["
+.contact;o;;" ;i;[o;;[o;
+;@Z;i;0;[o;;@Z;["contact;i;o;;{ ;	T;i;
+[o;$;i ;["margin-top;@;%;&;o;';@;"	50px;;(;i;
+[ o;
+;i ;@;["img;o;;" ;i;[o;;[o;
+;@p;i;0;[o;)	;@p;*0;["img;i;o;;{ ;	T;i;
+[o;
+;i;@;
+[ ;;;["M/* Compass mixin to ensure box-shadows are consistent between vendors */o; ;"box-shadow;@;!0;"[o:Sass::Script::List	;i;@:@separator:
+space;[
+o:Sass::Script::Number:@numerator_units[ ;i;@:@original"0;i :@denominator_units[ o;.;/["px;i;@;0"0px;i ;1[ o:Sass::Script::Null;i;@;0o;.;/["px;i;@;0"	25px;i;1[ o:Sass::Script::Funcall;"[	o;.;/[ ;i;@;0"0;i ;1@ƒo;.;/[ ;i;@;0"0;i ;1@ƒo;.;/[ ;i;@;0"0;i ;1@ƒo;.;/[ ;i;@;0"0.5;f0.5;1@ƒ;"	rgba;i;@;!0;#{ ;i;
+[ ;#{ o;
+;i;@;
+[ ;;;["s/* Compass mixin to ensure border-radius is consistent between vendors, including horizontal/vertical radii */o; ;"border-radius;@;!0;"[o;.;/["px;i;@;0"	15px;i;1[ o;.;/["px;i;@;0"	25px;i;1[ ;i;
+[ ;#{ o;$;i ;["
+width;@;%;&;o;';@;"80%;;(;i;
+[ o;$;i ;["margin;@;%;&;o;';@;"0 auto;;(;i ;
+[ o;$;i ;["display;@;%;&;o;';@;"
+block;;(;i!;
+[ o;
+;i ;@;[".left-col;o;;" ;i$;[o;;[o;
+;@Ë;i$;0;[o;;@Ë;["
+left-col;i$;o;;{ ;	T;i$;
+[o;$;i ;["
+float;@;%;&;o;';@;"	left;;(;i%;
+[ o;$;i ;["
+width;@;%;&;o;';@;"50%;;(;i&;
+[ o;
+;i ;@;["p;o;;" ;i(;[o;;[o;
+;@ç;i(;0;[o;)	;@ç;*0;["p;i(;o;;{ ;	T;i(;
+[o;$;i ;["margin-top;@;%;&;o;';@;"	10px;;(;i);
+[ o;
+;i ;@;[".right-col;o;;" ;i-;[o;;[o;
+;@ý;i-;0;[o;;@ý;["right-col;i-;o;;{ ;	T;i-;
+[o;$;i ;["
+float;@;%;&;o;';@;"	left;;(;i.;
+[ o;$;i ;["
+width;@;%;&;o;';@;"50%;;(;i/;
+[ 

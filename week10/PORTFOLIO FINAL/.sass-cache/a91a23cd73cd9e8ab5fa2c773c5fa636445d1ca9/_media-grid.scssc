@@ -1,0 +1,88 @@
+3.2.1 (Media Mark)
+ec6028f642dcc4f4ff47d452e6e04251f7a0004f
+o:Sass::Tree::RootNode
+:
+@linei:
+@options{ :@template"¨@import '_colors.scss';
+
+.media-grid {
+  list-style-type: none;
+  background: $media-grid-light;
+  margin: 0;
+  padding: 0;
+  
+	li {
+		background: $media-grid-dark;
+		float: left;
+		height: 200px;
+		width: 20%;
+		
+		&:nth-child(even) {
+		  background: $media-grid-light;
+		}
+	}
+	
+	img {
+		height: 100%;
+		margin: 0 auto;
+		display: block;
+	}
+	
+	&.media-grid-sm li {
+		width: 33.33%;
+		height: 400px;
+		overflow: hidden;
+	}
+}:@has_childrenT:@children[o:Sass::Tree::ImportNode
+;@;0;i:@imported_filename"_colors.scss;
+[ o:Sass::Tree::RuleNode:
+@tabsi ;@:
+@rule[".media-grid:@parsed_ruleso:"Sass::Selector::CommaSequence:@filename" ;i:
+@members[o:Sass::Selector::Sequence;[o:#Sass::Selector::SimpleSequence
+;@;i:
+@subject0;[o:Sass::Selector::Class;@:
+@name["media-grid;i:
+@sourceso:Set:
+@hash{ ;	T;i;
+[o:Sass::Tree::PropNode;i ;["list-style-type;@:@prop_syntax:new:@valueo:Sass::Script::String;@;"	none:
+@type:identifier;i	;
+[ o;;i ;["background;@;;;o:Sass::Script::Variable	;i
+;"media-grid-light;@:@underscored_name"media_grid_light;i
+;
+[ o;;i ;["margin;@;;;o; ;@;"0;!;";i;
+[ o;;i ;["padding;@;;;o; ;@;"0;!;";i;
+[ o;
+;i ;@;["li;o;;" ;i;[o;;[o;
+;@9;i;0;[o:Sass::Selector::Element	;@9:@namespace0;["li;i;o;;{ ;	T;i;
+[
+o;;i ;["background;@;;;o;#	;i;"media-grid-dark;@;$"media_grid_dark;i;
+[ o;;i ;["
+float;@;;;o; ;@;"	left;!;";i;
+[ o;;i ;["height;@;;;o; ;@;"
+200px;!;";i;
+[ o;;i ;["
+width;@;;;o; ;@;"20%;!;";i;
+[ o;
+;i ;@;["&:nth-child(even);o;;" ;i;[o;;[o;
+;@b;i;0;[o:Sass::Selector::Parent;@b;io:Sass::Selector::Pseudo
+;@b;["nth-child;i;!:
+class:	@arg["	even;o;;{ ;	T;i;
+[o;;i ;["background;@;;;o;#	;i;"media-grid-light;@;$"media_grid_light;i;
+[ o;
+;i ;@;["img;o;;" ;i;[o;;[o;
+;@|;i;0;[o;%	;@|;&0;["img;i;o;;{ ;	T;i;
+[o;;i ;["height;@;;;o; ;@;"	100%;!;";i;
+[ o;;i ;["margin;@;;;o; ;@;"0 auto;!;";i;
+[ o;;i ;["display;@;;;o; ;@;"
+block;!;";i;
+[ o;
+;i ;@;["&.media-grid-sm li;o;;" ;i;[o;;[o;
+;@™;i;0;[o;';@™;io;;@™;["media-grid-sm;i;o;;{ o;
+;@™;i;0;[o;%	;@™;&0;["li;i;o;;{ ;	T;i;
+[o;;i ;["
+width;@;;;o; ;@;"33.33%;!;";i ;
+[ o;;i ;["height;@;;;o; ;@;"
+400px;!;";i!;
+[ o;;i ;["
+overflow;@;;;o; ;@;"hidden;!;";i";
+[ 
