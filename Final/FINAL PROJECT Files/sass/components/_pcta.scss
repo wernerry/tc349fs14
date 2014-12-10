@@ -1,0 +1,60 @@
+@import '_colors.scss';
+
+.general-info {
+	overflow: hidden;
+	padding: 15px;
+	font-family: tahoma;
+	margin: auto;
+
+	p {
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	img {
+		width: 130px;
+		margin: 0 50px 10px 24px;
+	}
+
+	.right-col{ 
+		p {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.link {
+	margin-bottom: -5px;
+}
+
+.submit{
+	margin-left: 24px;
+}
+
+#comment {
+	height: 70px;
+	width: 300px;
+}
+
+.left-col {
+	float: left;
+	width: 40%;
+	margin-right: 20px;
+	margin-left: 95px;
+	background-color: $fillbackground;
+	border-radius: 10px;
+	border: 2px solid $border-color;
+	color: white;
+	padding: 0 0 0 20px;
+}
+
+.right-col {
+	float: left;
+	width: 40%;
+	background-color: $fillbackground;
+	border-radius: 10px;
+	border: 2px solid $border-color;
+	color: white;
+	padding: 0 0 20px 20px;
+}

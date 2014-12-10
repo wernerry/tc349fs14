@@ -1,0 +1,400 @@
+/* line 3, ../sass/components/_base.scss */
+body {
+	background-color: #C0C3C6;
+}
+   
+/* line 7, ../sass/components/_base.scss */
+header {
+	background-color: #164439;
+	height: 151px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/* line 14, ../sass/components/_base.scss */
+a {
+	color: #063;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+/* line 20, ../sass/components/_base.scss */
+#headerPic {
+	width: 150px;
+}
+
+/* line 24, ../sass/components/_base.scss */
+.title {
+	background-color: #164439;
+	color: white;
+	width: 360px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-radius: 10px;
+	border: 2px solid #666;
+}
+
+/* line 2, ../sass/components/_navigation.scss */
+#nav {
+	text-align:center;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;	
+	list-style-type: none;
+	background-color: #164439;
+	border: 5px solid #666;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+/* line 14, ../sass/components/_navigation.scss */
+#nav li {
+	display: inline;
+	border: 2px solid #7E7D7F;
+	border-radius: 5px;
+	margin-right: 10px;
+	padding: 5px 20px 5px 20px;
+	background-color: white;
+}
+
+/* line 22, ../sass/components/_navigation.scss */
+#nav li:hover {
+	box-shadow: 0px 0px 5px 0px white;
+}
+
+/* line 26, ../sass/components/_navigation.scss */
+#nav li.selected {
+	box-shadow: inset 0px 0px 7px 0px black;
+}
+
+/* line 5, ../sass/components/_home.scss */
+#news {
+	margin-top: 20px;
+	margin-right: 30px;
+	height: 595px;
+	width: 270px;
+	background-color: #164439;
+	border-radius: 10px;
+	border: 2px solid #666;
+	display: block;
+	color: white;
+	padding: 15px;
+}
+
+/* line 17, ../sass/components/_home.scss */
+#news p {
+	margin-bottom: 30px;
+}
+
+/* line 21, ../sass/components/_home.scss */
+#news h1 {
+	margin-top: 0px;
+}
+
+/* line 26, ../sass/components/_home.scss */
+#bigPicture {
+	margin-right: auto;
+	margin-left: 30px;
+	/* Compass mixin to ensure box-shadows are consistent between vendors */
+	-webkit-box-shadow: 0 0px 25px black;
+	-moz-box-shadow: 0 0px 25px black;
+	box-shadow: 0 0px 25px black;
+	/* Compass mixin to ensure border-radius is consistent between vendors, including horizontal/vertical radii */
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+/* line 35, ../sass/components/_home.scss */
+#scroller {
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: 30px;
+	height: 175px;
+	width: 500px;
+	overflow: auto;
+	border: 2px #666 solid;
+	border-radius: 10px;
+	background-color:#164439;
+	color: white;
+}
+
+/* line 47, ../sass/components/_home.scss */
+#scoller img {
+	border-radius: 5px;
+}
+
+/* line 52, ../sass/components/_home.scss */
+#maintable {
+	margin: auto;
+}
+
+/* line 56, ../sass/components/_home.scss */
+#about {
+	margin-top: 20px;
+	margin-right: 30px;
+	margin-left: 60px;
+	height: 595px;
+	width: 270px;
+	background-color: #164439;
+	border-radius: 10px;
+	border: 2px solid #666;
+	display: block;
+	color: white;
+	padding: 15px;
+}
+
+/* line 69, ../sass/components/_home.scss */
+#about p {
+	margin-bottom: 30px;
+}
+
+/* line 73, ../sass/components/_home.scss */
+#about h1 {
+	margin-top: 0px;
+}
+
+/* line 3, ../sass/components/_footer.scss */
+#footer {
+	width: 1000px;
+	background-color:#164439;
+	margin: 50px auto 10px auto;
+	padding: 10px;
+	border: 5px solid #666;
+	font-size:10px;
+	border-radius: 10px;
+}
+
+/* line 12, ../sass/components/_footer.scss */
+#footer p{
+	margin: 0 55px 0 25px;
+	color: white;
+}
+
+/* line 17, ../sass/components/_footer.scss */
+#footer a{
+	margin: 0 55px 0 25px;
+}
+
+/* line 21, ../sass/components/_footer.scss */
+#footer img:hover {
+	box-shadow: 0px 0px 20px 0px white;
+}
+
+/* line 5, ../sass/components/_roster.scss */
+.thumb {
+	position:relative;
+}
+
+/* line 8, ../sass/components/_roster.scss */
+.thumb:hover .overlay {
+	opacity:0.9;
+}
+
+/* line 15, ../sass/components/_roster.scss */
+.overlay {
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:227px;
+	height:300px;
+	background:#164439;
+	opacity:0;
+	color: white;
+	text-align: center;
+}
+
+/* line 27, ../sass/components/_roster.scss */
+#roster {
+	margin: auto;
+}
+
+/* line 30, ../sass/components/_roster.scss */
+#roster td {
+	padding: 8px;
+}
+
+/* line 34, ../sass/components/_roster.scss */
+#roster img {
+	height: 300px;
+	padding: 10px;
+	/* Compass mixin to ensure box-shadows are consistent between vendors */
+	-webkit-box-shadow: 0 0px 25px black;
+	-moz-box-shadow: 0 0px 25px black;
+	box-shadow: 0 0px 25px black;
+	/* Compass mixin to ensure border-radius is consistent between vendors, including horizontal/vertical radii */
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+/* line 27, ../sass/components/_roster.scss */
+.roster {
+	margin: auto;
+}
+
+/* line 30, ../sass/components/_roster.scss */
+.roster td {
+	padding: 8px;
+}
+
+/* line 34, ../sass/components/_roster.scss */
+.roster img {
+	height: 300px;
+	padding: 10px;
+	/* Compass mixin to ensure box-shadows are consistent between vendors */
+	-webkit-box-shadow: 0 0px 25px black;
+	-moz-box-shadow: 0 0px 25px black;
+	box-shadow: 0 0px 25px black;
+	/* Compass mixin to ensure border-radius is consistent between vendors, including horizontal/vertical radii */
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+/* line 4, ../sass/components/_schedule.scss */
+#schedule {
+	margin: 0 auto 20px auto;
+	border-collapse:collapse;
+	border:5px solid #666;
+	font-family: tahoma;
+	background-color: white;
+	/* Compass mixin to ensure box-shadows are consistent between vendors */
+	-webkit-box-shadow: 0 0px 25px black;
+	-moz-box-shadow: 0 0px 25px black;
+	box-shadow: 0 0px 25px black;
+}
+
+/* line 13, ../sass/components/_schedule.scss */
+#schedule td {
+	border:1px solid #666;
+	padding: 10px;
+}
+
+/* line 19, ../sass/components/_schedule.scss */
+.row1 {
+	font-weight: bold;
+	background-color: #164439;
+	color: white;
+}
+
+/* line 4, ../sass/components/_stats.scss */
+.sortable {
+	margin: 0 auto 20px auto;
+	border-collapse:collapse;
+	border:5px solid #666;
+	font-family: tahoma;
+	background-color: white;
+	/* Compass mixin to ensure box-shadows are consistent between vendors */
+	-webkit-box-shadow: 0 0px 25px black;
+	-moz-box-shadow: 0 0px 25px black;
+	box-shadow: 0 0px 25px black;
+}
+
+/* line 13, ../sass/components/_stats.scss */
+.sortable td {
+	border:1px solid #666;
+	padding: 10px;
+	text-align: center;
+}
+
+/* line 3, ../sass/components/_pcta.scss */
+.general-info {
+	overflow: hidden;
+	padding: 15px;
+	font-family: tahoma;
+	margin: auto;
+}
+
+/* line 9, ../sass/components/_pcta.scss */
+.general-info p {
+	margin: 0 auto;
+	width: 90%;
+}
+
+/* line 14, ../sass/components/_pcta.scss */
+.general-info img {
+	width: 130px;
+	margin: 0 50px 10px 24px;
+}
+
+/* line 19, ../sass/components/_pcta.scss */
+.general-info .right-col p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* line 27, ../sass/components/_pcta.scss */
+.link {
+	margin-bottom: -5px;
+}
+
+/* line 31, ../sass/components/_pcta.scss */
+.submit{
+	margin-left: 24px;
+}
+
+/* line 35, ../sass/components/_pcta.scss */
+#comment {
+	height: 70px;
+	width: 300px;
+}
+
+/* line 40, ../sass/components/_pcta.scss */
+.left-col {
+	float: left;
+	width: 40%;
+	margin-right: 20px;
+	margin-left: 95px;
+	background-color: #164439;
+	border-radius: 10px;
+	border: 2px solid #666;
+	color: white;
+	padding: 0 0 0 20px;
+}
+
+/* line 52, ../sass/components/_pcta.scss */
+.right-col {
+	float: left;
+	width: 40%;
+	background-color: #164439;
+	border-radius: 10px;
+	border: 2px solid #666;
+	color: white;
+	padding: 0 0 20px 20px;
+}
+
+/* line 1, ../sass/components/_respnose.scss */
+@media screen and (max-width: 1000px) {
+body {
+width: 100%;
+font-size: 100%;
+}
+img {
+width: 100%;
+height: 100%;
+}
+p {
+width: 100%;
+}
+#roster {
+width: 50%;
+height: 50%;
+}
+#news {
+width: 100%;
+}
+#bigPicture{
+width: 100%;
+}
+#about{
+width: 100%;
+}
+#footer{
+width:100%;
+}
+#nav {
+width: 100%;
+}
+}

@@ -1,0 +1,52 @@
+3.2.1 (Media Mark)
+64970eb1c0f1f326cd969748f0cc922bab66cad3
+o:Sass::Tree::RootNode
+:
+@linei: @options{:@template"^@import '_colors.scss';
+@import 'compass/css3/box-shadow';
+.hero-unit {
+background-color: $hero-unit-back;
+clear: both;
+/* Compass mixin to ensure box-shadows are consistent between vendors */
+@include box-shadow(0 5px null 10px rgba(0,0,0,.5));
+height: 500px;
+overflow: hidden;
+img {
+margin: 0 auto;
+display: block;
+width: 100%;
+}
+}:@has_childrenT:@children[o:Sass::Tree::ImportNode
+;@;0;i:@imported_filename"_colors.scss;
+[o;
+;@;0;i;"compass/css3/box-shadow;
+[o:Sass::Tree::RuleNode:
+@tabsi;@:
+@rule[".hero-unit:@parsed_ruleso:"Sass::Selector::CommaSequence:@filename";i : @members[o:Sass::Selector::Sequence;[o:#Sass::Selector::SimpleSequence
+;@;i : @subject0;[o:Sass::Selector::Class;@:
+@name["hero-unit;i : @sourceso:Set:
+@hash{; T;i ;
+[o:Sass::Tree::PropNode;i;["background-color;@:@prop_syntax:new:@valueo:Sass::Script::Variable ;i
+;"hero-unit-back;@:@underscored_name"hero_unit_back;i
+;
+[o;;i;["
+clear;@;;;o:Sass::Script::String;@;" both:
+@type:identifier;i;
+[o:Sass::Tree::CommentNode
+;i;@;
+[;#:normal;["M/* Compass mixin to ensure box-shadows are consistent between vendors */o:Sass::Tree::MixinNode;"box-shadow;@:@splat0:
+@args[o:Sass::Script::List ;i ;@:@separator:
+space;[
+o:Sass::Script::Number:@numerator_units[;i ;@:@original"0;i:@denominator_units[o;-;.["px;i ;@;/"5px;i
+;0[o:Sass::Script::Null;i ;@;0o;-;.["px;i ;@;/" 10px;i;0[o:Sass::Script::Funcall;)[ o;-;.[;i ;@;/"0;i;0@8o;-;.[;i ;@;/"0;i;0@8o;-;.[;i ;@;/"0;i;0@8o;-;.[;i ;@;/"0.5;f0.5;0@8;" rgba;i ;@;(0:@keywords{;i ;
+[;3{o;;i;["height;@;;;o;";@;"
+500px;#;$;i;
+[o;;i;[" overflow;@;;;o;";@;"hidden;#;$;i;
+[o; ;i;@;["img;o;;";i;[o;;[o;
+;@g;i;0;[o:Sass::Selector::Element ;@g:@namespace0;["img;i;o;;{; T;i;
+[o;;i;["margin;@;;;o;";@;"0 auto;#;$;i;
+[o;;i;["display;@;;;o;";@;"
+block;#;$;i;
+[o;;i;["
+width;@;;;o;";@;" 100%;#;$;i;
+[

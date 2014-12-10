@@ -1,0 +1,18 @@
+@import '_colors.scss';
+@import 'compass/css3/box-shadow';
+
+.sortable {
+	margin: 0 auto 20px auto;
+	border-collapse:collapse;
+	border:5px solid $border-color;
+	font-family: tahoma;
+	background-color: white;
+	/* Compass mixin to ensure box-shadows are consistent between vendors */
+	@include box-shadow(0 0px null 25px black);
+
+	td {
+		border:1px solid $border-color;
+		padding: 10px;
+		text-align: center;
+	}
+}

@@ -1,0 +1,32 @@
+@import '_colors.scss';
+
+body {
+	background-color: $background;
+}
+   
+header {
+	background-color: $fillbackground;
+	height: 151px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+a {
+	color: #063;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#headerPic {
+	width: 150px;
+}
+
+.title {
+	background-color: $fillbackground;
+	color: white;
+	width: 360px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-radius: 10px;
+	border: 2px solid $border-color;
+}

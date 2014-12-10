@@ -1,0 +1,42 @@
+@import '_colors.scss';
+@import 'compass/css3/box-shadow';
+@import 'compass/css3/border-radius';
+
+.thumb {
+	position:relative;
+
+	&:hover{
+		.overlay {
+			opacity:0.9;
+		}
+	}
+}
+
+.overlay {
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:227px;
+	height:300px;
+	background:$fillbackground;
+	opacity:0;
+	color: white;
+	text-align: center;
+}
+
+#roster {
+	margin: auto;
+
+	td {
+		padding: 8px;
+	}
+
+	img {
+		height: 300px;
+		padding: 10px;
+		/* Compass mixin to ensure box-shadows are consistent between vendors */
+		@include box-shadow(0 0px null 25px black);
+		/* Compass mixin to ensure border-radius is consistent between vendors, including horizontal/vertical radii */
+		@include border-radius(10px, 10px);
+	}
+}
