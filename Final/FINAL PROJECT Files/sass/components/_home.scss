@@ -2,10 +2,14 @@
 @import 'compass/css3/box-shadow';
 @import 'compass/css3/border-radius';
 
+.wrap {
+	margin: 0 auto;
+	width: 1170px;
+}
+
 #news {
 	margin-top: 20px;
-	margin-right: 30px;
-	height: 595px;
+	height: 530px;
 	width: 270px;
 	background-color: $fillbackground;
 	border-radius: 10px;
@@ -13,6 +17,7 @@
 	display: block;
 	color: white;
 	padding: 15px;
+	float: left;
 
 	p {
 		margin-bottom: 30px;
@@ -23,9 +28,15 @@
 	}
 }
 
+#pic {
+	display: block;
+	float: left;
+	width: 500px;
+}
+
 #bigPicture {
-	margin-right: auto;
 	margin-left: 30px;
+	margin-top: 20px;
 	/* Compass mixin to ensure box-shadows are consistent between vendors */
 	@include box-shadow(0 0px null 25px black);
 	/* Compass mixin to ensure border-radius is consistent between vendors, including horizontal/vertical radii */
@@ -34,28 +45,18 @@
 
 #scroller {
 	margin-top: 20px;
-	margin-right: auto;
-	margin-left: 30px;
+	margin-left: 43px;
 	height: 175px;
-	width: 500px;
+	width: 474px;
 	overflow: auto;
 	border: 2px solid $border-color;
 	border-radius: 10px;
 	background-color: $fillbackground;
 	color: white;
-
-	img {
-		border-radius: 5px;
-	}
-}
-
-#maintable {
-	margin: auto;
 }
 
 #about {
 	margin-top: 20px;
-	margin-right: 30px;
 	margin-left: 60px;
 	height: 595px;
 	width: 270px;
@@ -65,6 +66,7 @@
 	display: block;
 	color: white;
 	padding: 15px;
+	float: left;
 
 	p {
 		margin-bottom: 30px;
